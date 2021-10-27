@@ -1,0 +1,30 @@
+.content {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  .item {
+    padding: 8px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 230px;
+    width: 100%;
+    background-color: #bcb;
+
+    .image {
+      width: 200px;
+    }
+
+    .text {
+      margin-top: 5px;
+      padding-left: 10px;
+    }
+  }
+}

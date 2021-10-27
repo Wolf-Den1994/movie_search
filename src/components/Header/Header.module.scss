@@ -1,0 +1,43 @@
+.header {
+  background-color: #126bbe;
+  display: flex;
+  justify-content: center;
+
+  .wrapper {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .input {
+      max-width: 300px;
+      width: 100%;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+
+    .user {
+      display: flex;
+      align-items: center;
+
+      .arrow {
+        background-image: url('../../assets/images/arrow.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .header {
+    .wrapper {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}

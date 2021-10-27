@@ -1,0 +1,19 @@
+.pagination {
+  margin: 20px auto 40px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 300px;
+  width: 100%;
+
+  .button {
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+      transform: scale(1.4);
+    }
+  }
+}
